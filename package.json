@@ -1,0 +1,36 @@
+{
+  "name": "MeteorLaunch",
+  "private": true,
+  "author": "abmantha",
+  "description": "Meteor Boilerplate Startup Code",
+  "license": "MIT",
+  "scripts": {
+    "equip": "/bin/sh ./.scripts/equip.sh",
+    "launch": "/bin/sh ./.scripts/launch.sh",
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "immutable": "^3.8.1",
+    "material-ui": "^0.15.2",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.2.1",
+    "react-addons-pure-render-mixin": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-mounter": "^1.2.0",
+    "react-tap-event-plugin": "^1.0.0"
+  }, 
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.3.0",
+    "eslint": "^2.13.1",
+    "eslint-plugin-flowtype": "^2.2.7",
+    "eslint-plugin-react": "^5.2.2",
+    "flow-bin": "^0.27.0",
+    "json-loader": "^0.5.4",
+    "react-addons-perf": "^15.1.0",
+    "react-addons-test-utils": "^15.1.0",
+    "sinon": "^1.17.4"
+  }
+}
