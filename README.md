@@ -23,3 +23,5 @@ Initialize all directories and files needed for development.
 Install project NPM modules and initialze package.json
 
     $ npm run launch
+
+MDG, we have lift off. Please keep your hands and feet inside at all times as you begin this bad-ass, cosmic, reactive journey. :)
